@@ -1,0 +1,34 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//Declaração de váriaveis:
+		inteiro idade = 20
+		real salario = 1400.00
+		caracter sexo = 'm'
+		cadeia nome = "Helena Silva"
+		logico e_estudante = falso
+		
+        //Código da Frase:
+		escreva ("Informe a sua idade: ")
+		leia (idade)
+		limpa ()
+		escreva ("\nInforme o seu salário: ")
+		leia (idade)
+		limpa ()
+		escreva ("\nInforme o sexo: ")
+		leia (idade)
+		limpa ()
+		escreva ("\nInforme o nome: ")
+		leia (idade)
+		limpa ()
+		escreva ("\nÉ estudante? verdadeiro ou Falso: ")
+		leia (idade)
+		limpa ()
+		
+        //Frase completa:
+		escreva ("\n"+nome+" tem "+idade+" anos e recebe um salário básico de R$ "+salario+".")
+		
+	}
+}
