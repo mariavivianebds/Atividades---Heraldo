@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     //camelCase
+	     //Declaração das variáveis
+		inteiro idade = 18
+		real salario = 20450.00
+		caracter sexo = 'M'
+		cadeia nome = "Jacinto Pinto"
+		logico casado = verdadeiro
+
+		//Exercício na aula
+		escreva("A idade do usuário é: "+idade)
+		escreva("\nO salario do usuário é: "+salario)
+		escreva("\nO sexo do usuário é: "+sexo)
+		escreva("\nO nome do usuário é: "+nome)
+		escreva("\nO usuário é casado? "+casado)
+
+		//Frase de treino com duas variáveis
+		escreva("\n\nQuantos anos voce tem, "+nome +"? Tenho "+idade)
+		
+	}
+}
