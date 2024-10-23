@@ -1,0 +1,38 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*Treino 1
+
+		//Declaração de Váriaveis
+		cadeia nome
+		real salario, divida, saldo
+
+		//Frase:
+		escreva("Qual o seu nome?")
+		leia(nome)
+		escreva("Quanto você ganha quanto por sálario?")
+		leia(salario)
+		escreva("Qual é a quantidade da sua dívida?")
+		leia(divida)
+		saldo = salario - divida
+		escreva("O seu saldo é de R$")
+		leia(saldo)*/
+
+		/*Treino 2
+
+		//Declaração de Váriaveis
+		real nascimento
+		inteiro idade, atualidade
+
+		//Frase:
+		escreva("Que ano é hoje? ")
+		leia(atualidade)
+		escreva("Quando você nasceu? ")
+		leia(nascimento)
+		idade = atualidade - nascimento
+		escreva("Você tem " +idade+ " anos")*/
+
+	}
+}
