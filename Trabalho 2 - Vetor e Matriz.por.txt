@@ -1,0 +1,335 @@
+programa
+{
+	funcao inicio ()
+	{
+
+//Aluna: Maria Viviane Barros da Silva
+
+    //Questão 1
+		
+		/*
+		real vetor[10], quadrado[10]
+
+        para (inteiro i = 0; i < 10; i++)
+        {
+            escreva("Digite um número real: ")
+            leia(vetor[i])
+        }
+
+        para (inteiro i = 0; i < 10; i++)
+        {
+            quadrado[i] = vetor[i] * vetor[i]
+        }
+
+        limpa()
+		escreva("Seus valores ao quadrado são: ")
+		
+        para (inteiro i = 0; i < 10; i++)
+        {
+            escreva(quadrado[i], " ")
+        }
+		*/
+		
+    //Questão 2
+		
+		/*
+		inteiro vetor[8], X, Y
+
+        para (inteiro i = 0; i < 8; i++)
+        {
+            escreva("Digite um valor para a posição ", i + 1, ": ")
+            leia(vetor[i])
+        }
+
+        escreva("Digite a posição X: ")
+        leia(X)
+        escreva("Digite a posição Y: ")
+        leia(Y)
+
+        inteiro soma = vetor[X] + vetor[Y]
+
+        escreva("A soma dos valores nas posições ", X, " e ", Y, " é: ", soma)
+		*/
+		
+    //Questão 3
+		
+		/*
+		inteiro vetor[6]
+
+        para (inteiro i = 0; i < 6; i++)
+        {
+            escreva("Digite um valor inteiro par ", i + 1, ": ")
+            leia(vetor[i])
+        }
+
+        escreva("Valores na ordem inversa: ")
+        para (inteiro i = 5; i >= 0; i--)
+        {
+            escreva(vetor[i], " ")
+        }
+		*/
+		
+		
+    //Questão 4
+		
+		/*
+		inteiro vetor[5], maior, menor, posMaior, posMenor
+
+        para (inteiro i = 0; i < 5; i++)
+        {
+            escreva("Digite o valor ", i + 1, ": ")
+            leia(vetor[i])
+        }
+
+        maior = vetor[0]
+        menor = vetor[0]
+        posMaior = 0
+        posMenor = 0
+
+        para (inteiro i = 1; i < 5; i++)
+        {
+            se (vetor[i] > maior)
+            {
+                maior = vetor[i]
+                posMaior = i
+            }
+            se (vetor[i] < menor)
+            {
+                menor = vetor[i]
+                posMenor = i
+            }
+        }
+
+        escreva("A posição do maior valor (", maior, ") é: ", posMaior, "\n")
+        escreva("A posição do menor valor (", menor, ") é: ", posMenor)
+		*/
+		
+		
+//Aluno: Geusivan Ferreira dos Santos Filho 
+
+        //Questão 5
+
+        /*inteiro vetor1[10], vetor2[10], vetor3[10]
+        inteiro i
+        
+        
+        escreva("Imforme 10 valores para o primeiro vetor:\n")
+        para (i = 0; i < 10; i++)
+        {
+            escreva("Elemento "+ i + 1+ ": ")
+            leia(vetor1[i])
+        }
+        
+        escreva("\nInforme 10 valores para o segundo vetor:\n")
+        para (i = 0; i < 10; i++)
+        {
+            escreva("Elemento "+ i + 1+ ": ")
+            leia(vetor2[i])
+        }
+        
+        
+        para (i = 0; i < 10; i++)
+        {
+            se (i % 2 == 0)
+                vetor3[i] = vetor1[i]
+                vetor3[i] = vetor2[i] 
+        }
+        
+        escreva("\nVetor resultante:\n")
+        para (i = 0; i < 10; i++)
+        {
+            escreva(vetor3[i]+ " ")
+        }*/
+		
+        //Questão 6
+		
+       /*inteiro m, p, n
+        m = 2
+        p = 3
+        n = 2 
+		
+        inteiro A[10][10], B[10][10], C[10][10] 
+
+       
+        escreva("Imforme os elementos da matriz A:\n")
+        para (inteiro i = 0; i < m; i++)
+        {
+            para (inteiro j = 0; j < p; j++)
+            {
+                escreva("A["+ i+ "]["+ j+ "]: ")
+                leia(A[i][j])
+            }
+        }
+
+        escreva("Informe os elementos da matriz B:\n")
+        para (inteiro i = 0; i < p; i++)
+        {
+            para (inteiro j = 0; j < n; j++)
+            {
+                escreva("B["+ i+ "]["+ j+ "]: ")
+                leia(B[i][j])
+            }
+        }
+
+        para (inteiro i = 0; i < m; i++)
+        {
+            para (inteiro j = 0; j < n; j++)
+            {
+                C[i][j] = 0
+            }
+        }
+
+        para (inteiro i = 0; i < m; i++)
+        {
+            para (inteiro j = 0; j < n; j++)
+            {
+                para (inteiro k = 0; k < p; k++)
+                {
+                    C[i][j] = C[i][j] + A[i][k] * B[k][j]
+                }
+            }
+        }
+
+        escreva("Matriz C (produto de A e B):\n")
+        para (inteiro i = 0; i < m; i++)
+        {
+            para (inteiro j = 0; j < n; j++)
+            {
+                escreva(C[i][j]+ " ")
+            }
+            escreva("\n")
+        }*/
+		
+        //Questão 7
+		
+        /*inteiro A[10][10], n, i, j
+        
+        escreva("Qual o tamanho da matriz identidade? ")
+        leia(n)
+        
+        para (i = 0; i < n; i++) 
+        {
+            para (j = 0; j < n; j++) 
+            {
+                se (i == j) 
+                    A[i][j] = 1
+                senao
+                    A[i][j] = 0 
+            }
+        }
+        
+        escreva("\nMatriz identidade de tamanho "+ n+ ":\n")
+        para (i = 0; i < n; i++) 
+        {
+            para (j = 0; j < n; j++) 
+                escreva(A[i][j]+ " ")
+            escreva("\n")
+        }*/
+		
+		
+		
+		
+//Aluna: Maria Sara Alves Bezerra
+	  
+	  //Questão 8
+	  /*
+	    inteiro n, i, j
+        inteiro matriz[100][100]
+        logico simetrica
+        
+        escreva("Digite a ordem da matriz (n): ")
+        leia(n)
+
+        // Leitura da matriz
+        escreva("Digite os elementos da matriz:\n")
+        para (i = 0; i < n; i++) {
+            para (j = 0; j < n; j++) {
+                leia(matriz[i][j])
+            }
+        }
+
+        // Inicializando a variável como verdadeiro
+        simetrica = verdadeiro
+
+        // Verificar se a matriz é simétrica
+        para (i = 0; i < n; i++) {
+            para (j = i + 1; j < n; j++) { // Verifica apenas a parte superior
+                se (matriz[i][j] != matriz[j][i]) {
+                    simetrica = falso
+                }
+            }
+        }
+
+        // Exibir resultado
+        se (simetrica) {
+            escreva("Verdadeiro: A matriz é simétrica.")
+        } senao {
+            escreva("Falso: A matriz não é simétrica.")
+  
+        }
+    */
+    	
+		//Questão 9
+
+    /*
+	
+        inteiro matriz[4][4]
+        inteiro i, j
+
+        
+        para (i = 0; i < 4; i++) {
+            para (j = 0; j < 4; j++) {
+                matriz[i][j] = i * j
+            }
+        }
+
+        
+        escreva("\nMatriz 4x4:")
+        para (i = 0; i < 4; i++) {
+            para (j = 0; j < 4; j++) {
+                escreva(matriz[i][j], " ")
+            }
+            escreva("\n")
+        }
+    
+    
+//Questão 10
+	
+	
+        inteiro matriz[5][5], linha, coluna
+        inteiro i, j, x
+        logico encontrado
+
+        escreva("\nInsira os valores da matriz 5x5: ")
+        para (i = 0; i < 5; i++) {
+            para (j = 0; j < 5; j++) {
+                leia(matriz[i][j])
+            }
+        }
+		
+        escreva("\nInsira o valor X para buscar na matriz: ")
+        leia(x)
+
+       
+        encontrado = falso
+
+      
+        para (i = 0; i < 5; i++) {
+            para (j = 0; j < 5; j++) {
+                se (matriz[i][j] == x) {
+                    encontrado = verdadeiro
+                    linha = i
+                    coluna = j
+                }
+            }
+        }
+
+        
+        se (encontrado) {
+            escreva("Valor encontrado na posição: Linha ", linha, ", Coluna ", coluna, "\n")
+        } senao {
+            escreva("Valor não encontrado na matriz.\n")
+        }
+	*/
+	}
+}
